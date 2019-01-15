@@ -1,0 +1,233 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  max-width: 192rem;
+  margin: 0 auto;
+  font-family: "Futura-Book", sans-serif;
+  font-size: 1.4rem;
+  color: #000000;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #ffffff;
+  font-family: "Gilroy-Extrabold", sans-serif;
+  text-transform: uppercase;
+  padding: 1.9rem 5.4rem;
+  border-radius: 2.8rem;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  padding-right: 5.6rem;
+  cursor: pointer;
+  color: #C93E08;
+}
+
+.btn:active {
+  padding: 1.9rem 5.3rem;
+}
+
+.section-title {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+.header {
+  padding-top: 3.4rem;
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  text-align: center;
+}
+
+.header__logo-icon {
+  margin: 0 auto;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.header__logo-title {
+  font-family: "Gilroy-Light", sans-serif;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header__logo-title > span {
+  color: #C93E08;
+}
+
+.header__menu {
+  font-family: "Gilroy-Light", sans-serif;
+  text-transform: uppercase;
+  width: 56.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__menu-item {
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.header__menu-item:hover {
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+}
+
+.header__menu-item:active {
+  -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
+}
+
+.main-screen {
+  background-image: url(../img/main-screen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 74rem;
+}
+
+.main-screen__container {
+  position: relative;
+}
+
+.main-screen__content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 25rem);
+          transform: translate(-50%, 25rem);
+}
+
+.main-screen__title {
+  font-family: "Dead-Island", sans-serif;
+  color: #C93E08;
+  font-size: 14.8rem;
+}
+
+.main-screen__subtitle {
+  font-family: "Gilroy-Extrabold", sans-serif;
+  margin: -1.6rem auto;
+  color: #FFF2D9;
+  font-size: 2.4rem;
+  max-width: 37rem;
+  line-height: 1.4;
+  margin-bottom: 5.2rem;
+}
+
+.main-screen__lang {
+  position: absolute;
+  margin-left: 1.6rem;
+  top: 65.8rem;
+  text-transform: uppercase;
+  font-family: "Gilroy-Light", sans-serif;
+}
+
+.main-screen__lang .main-screen__lang-en, .main-screen__lang-ru {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-screen__lang-active {
+  font-family: "Gilroy-Extrabold", sans-serif;
+  color: #ffffff !important;
+}
+
+.biography {
+  position: relative;
+}
+
+.biography__left-img, .biography__right-img {
+  position: absolute;
+  z-index: -1;
+}
+
+.biography__left-img {
+  top: 2rem;
+  left: 0;
+}
+
+.biography__right-img {
+  top: -3.9rem;
+  right: 2.9rem;
+}
+
+.biography__container {
+  padding-top: 10rem;
+  padding-bottom: 6.5rem;
+}
+
+.biography__section-title {
+  margin-bottom: 2rem;
+}
+
+.biography__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.biography__profile {
+  display: inline-block;
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.biography__profile-img {
+  width: 26.4rem;
+  height: 26.4rem;
+  margin-bottom: 2rem;
+}
+
+.biography__profile-text {
+  margin: 0 auto;
+  max-width: 13.1rem;
+  font-family: "Gilroy-Extrabold", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.8rem;
+}
+
+.biography__paragraph {
+  margin-top: 4rem;
+  text-align: justify;
+  -webkit-column-count: 4;
+          column-count: 4;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+  line-height: 1.4;
+}
+/*# sourceMappingURL=style.css.map */

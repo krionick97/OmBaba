@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Gilroy-Extrabold";
+  src: url("../fonts/gilroy/Gilroy-ExtraBold.eot");
+  src: url("../fonts/gilroy/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/gilroy/Gilroy-ExtraBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/gilroy/Gilroy-ExtraBold.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/gilroy/Gilroy-Light.eot");
+  src: url("../fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/gilroy/Gilroy-Light.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/gilroy/Gilroy-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/gilroy/Gilroy-Light.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dead-Island";
+  src: url("../fonts/dead-island/Dead-Island.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/dead-island/Dead-Island.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/dead-island/Dead-Island.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/dead-island/Dead-Island.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/dead-island/Dead-Island.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura-Book";
+  src: url("../fonts/futura/futurabook.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/futura/futurabook.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/futura/futurabook.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/futura/futurabook.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/futura/futurabook.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

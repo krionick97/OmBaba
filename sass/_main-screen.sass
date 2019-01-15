@@ -1,0 +1,40 @@
+.main-screen
+  background-image: url(../img/main-screen.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  height: 74rem
+  // position: relative
+  &__container
+    position: relative
+  &__content
+    position: absolute
+    text-align: center
+    top: 50%
+    left: 50%
+    transform: translate(-50%, 25rem)
+  &__title
+    +font-main-screen
+    color: $color-red
+    font-size: 14.8rem
+  &__subtitle
+    +font-accident-bold
+    margin: -1.6rem auto
+    // text-align: center
+    color: $color-text-white
+    font-size: 2.4rem
+    max-width: 37rem
+    line-height: 1.4
+    margin-bottom: 5.2rem
+  &__lang
+    position: absolute
+    margin-left: 1.6rem
+    top: 65.8rem
+    text-transform: uppercase
+    +font-accident-light
+    & &-en, &-ru
+      text-decoration: none
+      color: $color-black
+    &-active
+      +font-accident-bold
+      color: $color-white !important
+  

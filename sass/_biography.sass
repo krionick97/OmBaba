@@ -1,0 +1,38 @@
+.biography
+  position: relative
+  &__left-img, &__right-img
+    position: absolute
+    z-index: -1
+  &__left-img
+    top: 2rem
+    left: 0
+  &__right-img
+    top: -3.9rem
+    right:  2.9rem
+  &__container
+    padding-top: 10rem
+    padding-bottom: 6.5rem
+  &__section-title
+    margin-bottom: 2rem
+  &__content
+    display: flex
+  &__profile
+    display: inline-block
+    text-align: center
+    margin-left: 4rem
+    &-img
+      width: 26.4rem  
+      height: 26.4rem
+      margin-bottom: 2rem
+    &-text
+      margin: 0 auto
+      max-width: 13.1rem
+      +font-accident-bold
+      text-transform: uppercase
+      line-height: 1.8rem
+  &__paragraph
+    margin-top: 4rem
+    text-align: justify
+    column-count: 4
+    column-gap: 3rem
+    line-height: 1.4
