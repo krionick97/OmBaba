@@ -273,6 +273,7 @@ body {
           column-gap: 3rem;
   line-height: normal;
   white-space: pre-line;
+  font-size: 1.6rem;
 }
 
 .biography__paragraph-name {
