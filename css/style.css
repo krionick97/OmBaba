@@ -229,8 +229,6 @@ body {
 .biography__paragraph {
   padding-top: 4rem;
   text-align: justify;
-  -webkit-column-count: 3;
-          column-count: 3;
   -webkit-column-gap: 3rem;
           column-gap: 3rem;
   line-height: normal;
