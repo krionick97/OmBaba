@@ -195,7 +195,7 @@ body {
 }
 
 .biography__section-title {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .biography__profile {
@@ -266,7 +266,6 @@ body {
 }
 
 .biography__paragraph {
-  padding-top: 4rem;
   text-align: justify;
   -webkit-column-count: 3;
           column-count: 3;
