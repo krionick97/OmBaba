@@ -208,27 +208,68 @@ body {
 .biography__profile-shape {
   width: 26.4rem;
   height: 26.4rem;
-  background-color: orangered;
   -webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .biography__profile-img {
+  position: absolute;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
-.biography__profile-text {
+.biography__profile-img-1 {
+  -webkit-animation-name: change-1;
+          animation-name: change-1;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.biography__profile-textbox {
+  position: relative;
   margin: 0 auto;
-  max-width: 13.1rem;
   font-family: "Gilroy-Extrabold", sans-serif;
   text-transform: uppercase;
   line-height: 1.8rem;
 }
 
+.biography__profile-text {
+  max-width: 13.1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.biography__profile-text-1 {
+  -webkit-animation-name: change-1;
+          animation-name: change-1;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.biography__profile-text-2 {
+  -webkit-animation-name: change-2;
+          animation-name: change-2;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .biography__paragraph {
   padding-top: 4rem;
   text-align: justify;
+  -webkit-column-count: 3;
+          column-count: 3;
   -webkit-column-gap: 3rem;
           column-gap: 3rem;
   line-height: normal;
@@ -240,5 +281,53 @@ body {
   margin-top: 4rem;
   font-style: italic;
   text-align: right;
+}
+
+@-webkit-keyframes change-1 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes change-1 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes change-2 {
+  0% {
+    opacity: 0.01;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.01;
+  }
+}
+
+@keyframes change-2 {
+  0% {
+    opacity: 0.01;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.01;
+  }
 }
 /*# sourceMappingURL=style.css.map */
