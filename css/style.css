@@ -45,7 +45,8 @@ body {
 .header {
   padding-top: 3.4rem;
   width: 100%;
-  position: fixed;
+  position: absolute;
+  top: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -106,6 +107,7 @@ body {
 .header__menu-item:hover {
   -webkit-transform: translateY(-0.1rem);
           transform: translateY(-0.1rem);
+  font-family: "Gilroy-Extrabold", sans-serif;
 }
 
 .header__menu-item:active {
@@ -118,6 +120,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 74rem;
+  position: relative;
 }
 
 .main-screen__container {
@@ -195,22 +198,24 @@ body {
   margin-bottom: 2rem;
 }
 
-.biography__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .biography__profile {
   display: inline-block;
   text-align: center;
   margin-left: 4rem;
+  float: right;
+}
+
+.biography__profile-shape {
+  width: 26.4rem;
+  height: 26.4rem;
+  background-color: orangered;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-bottom: 2rem;
 }
 
 .biography__profile-img {
-  width: 26.4rem;
-  height: 26.4rem;
-  margin-bottom: 2rem;
+  width: 100%;
 }
 
 .biography__profile-text {
@@ -222,12 +227,20 @@ body {
 }
 
 .biography__paragraph {
-  margin-top: 4rem;
+  padding-top: 4rem;
   text-align: justify;
-  -webkit-column-count: 4;
-          column-count: 4;
+  -webkit-column-count: 3;
+          column-count: 3;
   -webkit-column-gap: 3rem;
           column-gap: 3rem;
-  line-height: 1.4;
+  line-height: normal;
+  white-space: pre-line;
+}
+
+.biography__paragraph-name {
+  display: block;
+  margin-top: 4rem;
+  font-style: italic;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
