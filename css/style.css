@@ -172,6 +172,7 @@ body {
 
 .biography {
   position: relative;
+  padding: 10rem 0 6.5rem;
 }
 
 .biography__left-img, .biography__right-img {
@@ -190,7 +191,6 @@ body {
 }
 
 .biography__container {
-  padding-top: 10rem;
   padding-bottom: 6.5rem;
 }
 
@@ -329,5 +329,16 @@ body {
   100% {
     opacity: 0.01;
   }
+}
+
+.satsangs {
+  background-image: url(../img/mountain.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #FFDFDF;
+  padding-top: 10rem;
+  padding-bottom: 6.5rem;
+  height: 74rem;
 }
 /*# sourceMappingURL=style.css.map */
