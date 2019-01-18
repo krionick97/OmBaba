@@ -524,7 +524,7 @@ body {
 }
 
 .menu-visible .modal-menu__container {
-  margin: 18rem auto 15rem;
+  margin: 18rem auto 8rem;
 }
 
 .menu-visible .modal-menu__content {
@@ -555,10 +555,10 @@ body {
 .menu-visible .modal-menu__column-link {
   text-decoration: none;
   text-transform: uppercase;
-  line-height: 1.8;
   color: #000000;
   -webkit-transition: 0.1s;
   transition: 0.1s;
+  margin-bottom: 1rem;
 }
 
 .menu-visible .modal-menu__column-link:hover {
