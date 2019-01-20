@@ -1,0 +1,110 @@
+.books-slider
+  padding: 8rem 0 4rem
+  height: 72rem
+  background-image: url(../img/books-circles.svg)
+  background-repeat: no-repeat
+  background-position: 82% 30%
+  // text-align: center
+  &__container
+  &__section-title
+    margin-bottom: 5.8rem
+  &__slider-box
+    margin: 0 auto
+    // width: 74%
+    width: 114rem
+  &__slider-item
+    outline: none
+    margin: 0 2rem
+    // width: 80%
+    // display: flex
+    // justify-content: space-between
+    position: relative
+  &__coverbook
+    display: block
+    float: left
+    width: 36rem
+    // height: 50rem
+    margin-right: 10rem
+    &-img
+      width: 100%
+  &__annotation
+    text-align: center
+    // max-width: 114rem
+    // max-width: 74%
+    &-title
+      font-size: 2.8rem
+      text-transform: uppercase
+      color: $color-red
+      margin-bottom: 3.2rem
+  &__text
+    text-align: center
+    display: block
+    margin-bottom: 6rem
+  &__paragraph
+    text-align: justify
+    white-space: pre-line
+    font-size: 1.8rem
+    line-height: 1.4
+    // column-count: 2
+    // column-gap: 3rem
+  &__btn
+    margin: 0 auto
+    border: 0.2rem solid $color-red
+    &:hover
+      border: 0.1rem solid $color-red
+      color: $color-red
+      cursor: pointer
+      transform: translateY(-0.1rem)
+    &:active
+      transform: translateY(0.1rem)
+
+.slick-list
+  margin: 0 auto
+  width: 88%
+.arrow
+  display: block
+  // background-color: orangered
+  width: 3.6rem
+  height: 3.6rem
+  position: absolute
+  bottom: 54%
+  transition: 0.1s
+  &:hover
+    cursor: pointer
+    transform: translateY(-0.1rem)
+  &:active
+    transform: translateY(0.1rem)
+  &-prev
+    left: 0
+    background-image: url(../img/arrow-left.svg)
+  &-next
+    right: 0
+    background-image: url(../img/arrow-right.svg)
+
+.dots
+  // position: relative
+  margin-top: 6rem
+  text-align: center
+  display: flex
+  justify-content: center
+  // transition: 0.1s
+.dots > li > button
+  display: none
+.dots > li
+  width: 1.4rem
+  height: 1.4rem
+  border-radius: 2rem
+  // background-color: orangered
+  border: 0.1rem solid $color-red
+  box-sizing: border-box
+  float: left
+  &:hover
+    cursor: pointer
+.dots > li
+  &:nth-child(1), &:nth-child(2)
+    margin: 0 0.8rem
+.dots > .slick-active
+  border: none
+  background-color: $color-red
+
+

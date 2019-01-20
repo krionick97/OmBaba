@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>OmBaba</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-  <script src="script/script.js" defer></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+  <script src="js/slick-slider.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <title>OmBaba</title>
 </head>
 <body>
   
@@ -47,8 +50,8 @@
   <!--/////////////////////////////////////////////////////////-->
 
   <section class="biography">
-    <img src="img/cirlces-left.png" alt="img" class="biography__left-img">
-    <img src="img/cirlces-right.png" alt="img" class="biography__right-img">
+    <img src="img/cirlces-left.svg" alt="img" class="biography__left-img">
+    <img src="img/cirlces-right.svg" alt="img" class="biography__right-img">
     <div class="container biography__container">
       <h2 class="section-title biography__section-title">Biography</h2>
       <div class="biography__content">
@@ -170,9 +173,48 @@
     </div> <!--Modal Menu-->
 
   </section> <!--Satsangs-->
-    <!--/////////////////////////////////////////////////////////-->
+  <!--/////////////////////////////////////////////////////////-->
 
+  <section class="books-slider">
+    <div class="container books-slider__container">
+      <h2 class="section-title books-slider__section-title">Books</h2>
+    </div> <!--Container-->
 
+      <div class="books-slider__slider-box">
+        <div class="books-slider__slider-item">          
+          <div class="books-slider__coverbook">
+            <img src="img/Book1.jpg" alt="Coverbook" class="books-slider__coverbook-img">
+          </div> <!--Coverbook-->        
+          <div class="books-slider__annotation">
+            <div class="books-slider__text">
+              <h3 class="books-slider__annotation-title">Oneness</h3>
+              <p class="books-slider__paragraph">The teachings of Om Baba are not limited to a specific religion, or Yogic path, but are rather inspired by the “golden synthesis” that all great masters have followed, i.e., Love and Knowledge. He teaches that Knowledge of God (Ghyana) and Devotion to God (Bhakti) are like the two wings of the bird of Happiness. If any of the two are missing, the bird will, like a cripple, be unable to fly. 
+
+                His vision is “not to change our dream into another dream, but to fully wake us up from sleep”. In this manner he teaches that realization of our true Self, is the only way to be free from the delusive pains of the world. And that realization is not the privilege of a few “chosen ones”, but the birthright of all human beings.</p>
+            </div>
+            <button class="btn books-slider__btn">Download the book</button>
+          </div> <!--Annotation-->
+        </div> <!--Slider Item-->
+                
+        <div class="books-slider__slider-item">          
+          <div class="books-slider__coverbook">
+            <img src="img/Book2.jpg" alt="Coverbook" class="books-slider__coverbook-img">
+          </div> <!--Coverbook-->        
+          <div class="books-slider__annotation">
+            <h3 class="books-slider__annotation-title">Embrancing the Paradox</h3>
+            <div class="books-slider__text">
+              <p class="books-slider__paragraph">The teachings of Om Baba are not limited to a specific religion, or Yogic path, but are rather inspi- red by the “golden synthesis” that all great masters have followed, i.e., Love and Knowledge. He teaches that Knowledge of God (Ghyana) and Devotion to God (Bhakti) are like the two wings of the bird of Happiness. If any of the two are missing, the bird will, like a cripple, be unable to fly. 
+                
+                His vision is “not to change our dream into another dream, but to fully wake us up from sleep”. In this manner he teaches that realization of our true Self, is the only way to be free from the delusive pains of the world. And that realization is not the privilege of a few “chosen ones”, but the birthright of all human beings.</p>
+            </div>
+            <button class="btn books-slider__btn">Download the book</button>
+          </div> <!--Annotation-->
+        </div> <!--Slider Item-->
+                
+      </div> <!--Slider Box-->
+
+  </section> <!--Books slider-->
+  <!--/////////////////////////////////////////////////////////-->
   
   
 

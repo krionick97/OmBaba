@@ -569,4 +569,154 @@ body {
 .menu-visible .modal-menu__column-link:active {
   font-size: 1.4rem;
 }
+
+.books-slider {
+  padding: 8rem 0 4rem;
+  height: 72rem;
+  background-image: url(../img/books-circles.svg);
+  background-repeat: no-repeat;
+  background-position: 82% 30%;
+}
+
+.books-slider__section-title {
+  margin-bottom: 5.8rem;
+}
+
+.books-slider__slider-box {
+  margin: 0 auto;
+  width: 114rem;
+}
+
+.books-slider__slider-item {
+  outline: none;
+  margin: 0 2rem;
+  position: relative;
+}
+
+.books-slider__coverbook {
+  display: block;
+  float: left;
+  width: 36rem;
+  margin-right: 10rem;
+}
+
+.books-slider__coverbook-img {
+  width: 100%;
+}
+
+.books-slider__annotation {
+  text-align: center;
+}
+
+.books-slider__annotation-title {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: #C93E08;
+  margin-bottom: 3.2rem;
+}
+
+.books-slider__text {
+  text-align: center;
+  display: block;
+  margin-bottom: 6rem;
+}
+
+.books-slider__paragraph {
+  text-align: justify;
+  white-space: pre-line;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.books-slider__btn {
+  margin: 0 auto;
+  border: 0.2rem solid #C93E08;
+}
+
+.books-slider__btn:hover {
+  border: 0.1rem solid #C93E08;
+  color: #C93E08;
+  cursor: pointer;
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+}
+
+.books-slider__btn:active {
+  -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
+}
+
+.slick-list {
+  margin: 0 auto;
+  width: 88%;
+}
+
+.arrow {
+  display: block;
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  bottom: 54%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+}
+
+.arrow:active {
+  -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
+}
+
+.arrow-prev {
+  left: 0;
+  background-image: url(../img/arrow-left.svg);
+}
+
+.arrow-next {
+  right: 0;
+  background-image: url(../img/arrow-right.svg);
+}
+
+.dots {
+  margin-top: 6rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dots > li > button {
+  display: none;
+}
+
+.dots > li {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #C93E08;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+.dots > li:hover {
+  cursor: pointer;
+}
+
+.dots > li:nth-child(1), .dots > li:nth-child(2) {
+  margin: 0 0.8rem;
+}
+
+.dots > .slick-active {
+  border: none;
+  background-color: #C93E08;
+}
 /*# sourceMappingURL=style.css.map */
