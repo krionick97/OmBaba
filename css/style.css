@@ -573,9 +573,6 @@ body {
 .books-slider {
   padding: 8rem 0 4rem;
   height: 72rem;
-  background-image: url(../img/books-circles.svg);
-  background-repeat: no-repeat;
-  background-position: 82% 30%;
 }
 
 .books-slider__section-title {
@@ -718,5 +715,73 @@ body {
 .dots > .slick-active {
   border: none;
   background-color: #C93E08;
+}
+
+.schedule {
+  padding: 4rem 0 8rem;
+}
+
+.schedule-books-bg {
+  background-image: url(../img/books-schedule-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -2.2rem;
+}
+
+.schedule__section-title {
+  margin-bottom: 6rem;
+}
+
+.schedule__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.schedule__program {
+  max-width: 36rem;
+}
+
+.schedule__program-date {
+  margin-bottom: 1.6rem;
+}
+
+.schedule__program-icon {
+  float: left;
+  margin-right: 1rem;
+}
+
+.schedule__program-term {
+  padding-top: 0.2rem;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+.schedule__program-img {
+  overflow: hidden;
+  max-width: 36rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.schedule__program-img img {
+  width: 100%;
+}
+
+.schedule__program-title {
+  margin-bottom: 2rem;
+}
+
+.schedule__program-text {
+  font-size: 1.8rem;
+  white-space: pre-line;
+}
+
+.footer {
+  background-color: #F27342;
+  height: 20rem;
 }
 /*# sourceMappingURL=style.css.map */
